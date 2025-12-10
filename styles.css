@@ -23,3 +23,42 @@ body {
     text-decoration: none;
     font-size: 18px;
 }
+.hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    height: 400px;
+    gap: 50px;
+    justify-content: center;
+}
+.hero .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 400;
+}
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+.hero p {
+    font: 24px;
+}
+.hero button {
+    background-color: #3882f6;
+    color: inherit;
+    width: 100px;
+    padding: 4px;
+}
+.hero .images
+{
+    display: flex;
+    align-items: center;
+}
+.hero img
+{
+    height: 200px;
+    width: 300px;
+}
