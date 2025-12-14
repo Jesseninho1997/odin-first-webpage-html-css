@@ -69,6 +69,7 @@ body {
     align-items: center;
     gap: 28px;
     padding-top: 25px;
+    height: 450px;
     
 }
 .personal h2{
@@ -96,4 +97,72 @@ body {
 .personal p {
     text-align: center;
     margin-top: 24px;
+}
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+.quote h2 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 300;
+    margin: 0;
+    max-width: 50ch;
+}
+.quote p { 
+    align-self: flex-end;
+    font-weight: 700;
+}
+.booking {
+    display: flex;
+    background-color: #3882f6;
+    max-width: 800px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+    padding: 40px 60px;
+    border-radius: 20px;
+}
+.booking .text {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin: 0px;
+}
+.text h3 {
+    margin: 0;
+    font-size: 24px;
+}
+.text p {
+    margin: 8 0 0;
+    font-size: 16px;
+    opacity: 0.9;
+}
+.booking button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+.footer p {
+    margin: 0;
 }
